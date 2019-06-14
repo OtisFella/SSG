@@ -1,0 +1,15 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-title>
+            Home
+        </ion-title>
+    </ion-toolbar>
+    <!--Include search bar-->
+    <ion-searchbar></ion-searchbar>
+</ion-header>
+
+<ion-content [scrollEvents]="true">
+    <ion-button fill="solid" expand="block" color="dark" (click)="Login()">Log in</ion-button>
+    <ion-button fill="solid" expand="block" color="light" (click)="Register()">Register</ion-button>
+
+</ion-content>
